@@ -1,0 +1,6 @@
+{"id":"1","reference":"Paris","baseline_response":"Paris","candidate_response":"Paris"}
+{"id":"2","reference":"4","baseline_response":"5","candidate_response":"4"}
+{"id":"3","reference":"Tokyo","baseline_response":"Tokyo","candidate_response":"Tokyo"}
+{"id":"4","reference":"9","baseline_response":"9","candidate_response":"8"}
+{"id":"5","reference":"Nairobi","baseline_response":"Nairobi","candidate_response":"Nairobi"}
+{"id":"6","reference":"16","baseline_response":"15","candidate_response":"16"}
