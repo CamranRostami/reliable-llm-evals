@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliable-llm-evals"
+version = "0.1.0"
+description = "Paired LLM evaluations with bootstrap uncertainty and regression checks"
+requires-python = ">=3.10"
+authors = [{name = "Kamran Rostami"}]
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+reliable-evals = "reliable_evals.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
